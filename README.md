@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a complete solution, a framework to create a web application of all sizes, with a beautiful development experience and flexible routing based on file systems and the.
 
-## Getting Started
+## Real Vision NextJs Template PWA
 
-First, run the development server:
+This is a project template for NextJs apps.
 
-```bash
-npm run dev
-# or
-yarn dev
+To create a new project based on this template use:
+
+### Get started
+
+Install the dependenciers
+
+```
+    cd nextjs-project-template
+    npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Run project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+    npm start
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Navigate to localhost:3000. YOut should see your app running. Edit a component file in src, save it, and reload the page to see your changes.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+By default, the server will only respond to requests from localhost. 
 
-## Learn More
+If you are using **Visual Studio Code** we recommend installing the official extension React for VS Code. If you are using other editors you may need to install a plugin in order to get syntax highlighting and intellisense.
 
-To learn more about Next.js, take a look at the following resources:
+### Regular dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React-redux
+- react-router-dom
+- redux
+- redux-thunk
+- axios 
+- timeago.js
