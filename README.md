@@ -21,7 +21,7 @@ Run project
     npm start
 ```
 
-Navigate to localhost:3000. YOut should see your app running. Edit a component file in src, save it, and reload the page to see your changes.
+Navigate to localhost:3000. You should see your app running. Edit a component file in src, save it, and reload the page to see your changes.
 
 By default, the server will only respond to requests from localhost. 
 
